@@ -1,0 +1,44 @@
+
+body{
+    width: 100vw;
+    height: 95vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#game-area{
+    height: 85%;
+    width: 99%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pipe{
+    width: 70px;
+    background: green;   
+}
+
+.top-pipe{
+    height: 255px;
+    position: absolute;
+}
+
+.bottom-pipe{
+    height: 255px;
+    position: absolute;
+    bottom: 0;
+}
+
+#player{
+    width: 15px;
+    height: 15px;
+    background: #000;
+    position: absolute;
+    z-index: 1;
+
+}
